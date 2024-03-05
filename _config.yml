@@ -1,7 +1,7 @@
 # Site
 site: 'Open Data Blog'
 name: 'Open Data Blog'
-title: Open Data Blog - A technology blog backed by open data
+title: 'Open Data Blog - A technology blog backed by open data'
 keywords: 'opendata,open data,open,data,opendatablog,open data blog, datablog,data blog,dataset, open dataset'
 description: 'Open Data Blog | A blog on open data, datasets, data science, statistcs, artificial intelligence and trends in technology. This blog is completely open source and built on top of open source technologies.'
 logo: 'assets/images/logo.png'
