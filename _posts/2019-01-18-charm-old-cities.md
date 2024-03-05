@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Could we reinvent the charm of old cities"
+permalink : /could-we-reinvent-the-charm-of-old-cities
 author: admin
 categories: [ Jekyll, tutorial ]
 image: assets/images/home.jpg
