@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "FastAPI - the best tool to make API in python"
+title:  "Top 7 Free Web Analytics Tools for Comprehensive Site Analysis"
 permalink : /top-7-free-web-analytics-tools-for-comprehensive-site-analysis
 author: admin
-categories: [ Programming ]
+categories: [ Web Analytics ]
 image: assets/images/12.jpg
 tags: [analytics, google analytics,adobe analytics, featured]
 ---
