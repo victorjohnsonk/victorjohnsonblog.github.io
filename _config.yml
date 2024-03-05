@@ -28,13 +28,13 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
+    admin:
+      name:           Victor
+      site:           https://victorjohnson.online
       avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Hi, I am Victor, the author of Open Data Blog, the blog you're currently reading. I hope you like it!"
+      email:          mail.opendatablog@gmail.com
+      twitter:        https://twitter.com/opendatablog
 
     jane:
       name:           Jane
