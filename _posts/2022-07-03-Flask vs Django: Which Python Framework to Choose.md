@@ -5,7 +5,7 @@ permalink : /flask-vs-django-which-python-framework-to-choose
 author: admin
 categories: [ Programming]
 image: assets/images/home.jpg
-tags: [python, api, Flask, Django, sticky]
+tags: [python, api, Flask, Django]
 ---
 
 
