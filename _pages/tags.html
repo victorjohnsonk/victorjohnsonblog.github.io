@@ -8,7 +8,7 @@ permalink: "/tags"
     <div class="row justify-content-center">
         <div class="col-md-8">
         <h1 class="font-weight-bold title h6 text-uppercase mb-4">Tags</h1>
-            
+         <div id="no-tag-found-message"></div>
         {% for tag in site.tags %} 
         <h4 class="font-weight-bold spanborder text-capitalize" id="{{ tag[0] | downcase }}"><span>{{ tag[0] }}</span></h4>
             
@@ -34,3 +34,31 @@ permalink: "/tags"
         
     </div>
 </div>
+
+<script>
+window.addEventListener("DOMContentLoaded", function() {
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var tagValue = urlParams.get('id');
+    if (tagValue) {
+        var elements = document.querySelectorAll('[data-tag]:not([data-tag="' + tagValue + '"])');
+        if (elements.length > 0) {
+            elements.forEach(function(element) {
+                element.remove();
+            });
+        } else {
+            // Display message in the predefined paragraph
+            var messageParagraph = document.getElementById('no-tag-found-message');
+            if (messageParagraph) {
+                messageParagraph.innerHTML = '<p>No elements found for tag: ' + tagValue + '</p>';
+            }
+        }
+    } else {
+        // Display the same message if no categoryValue is provided
+        var messageParagraph = document.getElementById('no-tag-found-message');
+        if (messageParagraph) {
+            messageParagraph.innerHTML = '<p>No tag value provided.</p>';
+        }
+    }
+});
+</script>
