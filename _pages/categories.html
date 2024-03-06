@@ -26,8 +26,9 @@ permalink: "/categories"
         {% endfor %}
         {% assign pages_list = nil %}
         {% assign group = nil %}
-
-        {% endfor %}
+{% else %}
+    <p>No categories found.</p>
+{% endfor %}
 
         </div>
         
