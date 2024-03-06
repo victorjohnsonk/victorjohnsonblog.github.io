@@ -36,3 +36,15 @@ permalink: "/categories"
         
     </div>
 </div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var categoryValue = urlParams.get('category');
+    if (categoryValue) {
+        console.log(categoryValue);
+    }
+});
+</script>
