@@ -39,7 +39,7 @@ permalink: "/categories"
 
 
 <script>
-window.addEventListener("load", function() {
+window.addEventListener(DOMContentLoaded, function() {
     var queryString = window.location.search;
     var urlParams = new URLSearchParams(queryString);
     var categoryValue = urlParams.get('category');
