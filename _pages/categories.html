@@ -74,7 +74,7 @@ window.addEventListener("DOMContentLoaded", function() {
         console.log(categoryValue);
         var elements = document.querySelectorAll('[data-category="' + categoryValue + '"]');
         elements.forEach(function(element) {
-            element.style.display = 'none';
+            element.remove();
         });
     }
 });
