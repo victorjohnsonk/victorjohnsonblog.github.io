@@ -45,6 +45,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var categoryValue = urlParams.get('category');
     if (categoryValue) {
         console.log(categoryValue);
+        var elements = document.querySelectorAll('[data-category="' + categoryValue + '"]');
+        elements.forEach(function(element) {
+            element.style.display = 'none';
+        });
     }
 });
 </script>
