@@ -43,6 +43,7 @@ window.addEventListener("DOMContentLoaded", function() {
     if (tagValue) {
         var elements = document.querySelectorAll('[data-tag]:not([data-tag="' + tagValue + '"])');
         if (elements.length > 0) {
+            document.title = tagValue;
             elements.forEach(function(element) {
                 element.remove();
             });
