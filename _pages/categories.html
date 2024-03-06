@@ -51,15 +51,17 @@ window.addEventListener("DOMContentLoaded", function() {
                 element.remove();
             });
         } else {
-            var messageDiv = document.getElementById('no-category-found-message');
-            if (messageDiv) {
-                messageDiv.textContent = 'No elements found for category: ' + categoryValue;
+            // Display message in the predefined paragraph
+            var messageParagraph = document.getElementById('no-category-found-message');
+            if (messageParagraph) {
+                messageParagraph.innerHTML = '<p>No elements found for category: ' + categoryValue + '</p>';
             }
         }
     } else {
-        var messageDiv = document.getElementById('no-category-found-message');
-        if (messageDiv) {
-            messageDiv.textContent = 'No category value provided.';
+        // Display the same message if no categoryValue is provided
+        var messageParagraph = document.getElementById('no-category-found-message');
+        if (messageParagraph) {
+            messageParagraph.innerHTML = '<p>No category value provided.</p>';
         }
     }
 });
