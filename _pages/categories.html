@@ -41,31 +41,15 @@ permalink: "/categories"
 
 <script>
 window.addEventListener("DOMContentLoaded", function() {
-    // var queryString = window.location.search;
-    // var urlParams = new URLSearchParams(queryString);
-    // var categoryValue = urlParams.get('category');
-    // if (categoryValue) {
-    //     console.log(categoryValue);
-    //     var elements = document.querySelectorAll('[data-category]:not([data-category="' + categoryValue + '"])');
-    //     elements.forEach(function(element) {
-    //         element.remove();
-    //     });
-    // }
-
-
-    var pathname = window.location.pathname;
-    var parts = pathname.split('/');
-    var categoryIndex = parts.indexOf('categories');
-    if (categoryIndex !== -1 && categoryIndex < parts.length - 1) {
-        var categoryValue = parts[categoryIndex + 1];
-
-        console.log("Category Value:", categoryValue);
-        
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var categoryValue = urlParams.get('id');
+    if (categoryValue) {
+        console.log(categoryValue);
         var elements = document.querySelectorAll('[data-category]:not([data-category="' + categoryValue + '"])');
         elements.forEach(function(element) {
             element.remove();
         });
     }
-
 });
 </script>
