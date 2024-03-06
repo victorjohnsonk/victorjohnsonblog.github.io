@@ -72,7 +72,7 @@ window.addEventListener("DOMContentLoaded", function() {
     var categoryValue = urlParams.get('category');
     if (categoryValue) {
         console.log(categoryValue);
-        var elements = document.querySelectorAll('[data-category="' + categoryValue + '"]');
+        var elements = document.querySelectorAll('[data-category]:not([data-category="' + categoryValue + '"])');
         elements.forEach(function(element) {
             element.remove();
         });
