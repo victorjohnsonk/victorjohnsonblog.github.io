@@ -5,7 +5,7 @@ title: 'Open Data Blog - A technology blog backed by open data'
 keywords: 'opendata,open data,open,data,opendatablog,open data blog, datablog,data blog,dataset, open dataset'
 description: 'Open Data Blog | A blog on open data, datasets, data science, statistcs, artificial intelligence and trends in technology. This blog is completely open source and built on top of open source technologies.'
 favicon: 'assets/images/core/favicon.ico'
-baseurl: '/new'
+baseurl: ''
 lang: 'en-UK'
 timezone:  'Europe/London'
 repo: 'https://github.com/opendatablog/opendatablog.github.io' # site repo [optional]
