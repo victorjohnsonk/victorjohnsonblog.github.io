@@ -39,7 +39,7 @@ permalink: "/categories"
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
     var queryString = window.location.search;
     var urlParams = new URLSearchParams(queryString);
     var categoryValue = urlParams.get('category');
@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(categoryValue);
         var elements = document.querySelectorAll('[data-category="' + categoryValue + '"]');
         elements.forEach(function(element) {
-        element.style.display = 'none';
-    });
+            element.style.display = 'none';
+        });
     }
 });
 </script>
