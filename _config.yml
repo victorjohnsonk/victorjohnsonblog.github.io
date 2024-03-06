@@ -30,7 +30,7 @@ authors:
     admin:
       name: Victor Johnson
       site: https://victorjohnson.online
-      avatar: /assets/images/core/avatar1.jpg
+      avatar: assets/images/core/avatar1.jpg
       bio: "Hi, I am Victor, the author of Open Data Blog, the blog you're currently reading. I hope you like it!"
       email: mail.opendatablog@gmail.com
       github: opendatablog # github username
