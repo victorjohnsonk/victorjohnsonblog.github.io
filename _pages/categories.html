@@ -19,7 +19,7 @@ permalink: "/categories"
         {% if post.title != null %}
           {% if group == null or group == post.group %}
          
-            <div class="mb-5 d-flex justify-content-between main-loop-card" data-category="{{ category[0] | downcase }}">
+<!--             <div class="mb-5 d-flex justify-content-between main-loop-card" data-category="{{ category[0] | downcase }}">
 <div class="pr-3" data-category="{{ category[0] | downcase }}">
 	<h2 class="mb-1 h4 font-weight-bold">
 	<a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
@@ -45,7 +45,9 @@ permalink: "/categories"
 	</a>
 	</div>
 {% endif %}
-</div>
+</div> -->
+
+		  {% include main-loop-card.html %}
             
           {% endif %}
         {% endif %}
