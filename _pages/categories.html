@@ -47,6 +47,7 @@ window.addEventListener("DOMContentLoaded", function() {
     if (categoryValue) {
         var elements = document.querySelectorAll('[data-category]:not([data-category="' + categoryValue + '"])');
         if (elements.length > 0) {
+	document.title = categoryValue;
             elements.forEach(function(element) {
                 element.remove();
             });
