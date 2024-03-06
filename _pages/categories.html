@@ -26,8 +26,7 @@ permalink: "/categories"
         {% endfor %}
         {% assign pages_list = nil %}
         {% assign group = nil %}
-{% else %}
-    <p>No categories found.</p>
+
 {% endfor %}
 
         </div>
@@ -46,7 +45,6 @@ window.addEventListener("DOMContentLoaded", function() {
     var urlParams = new URLSearchParams(queryString);
     var categoryValue = urlParams.get('id');
     if (categoryValue) {
-        console.log(categoryValue);
         var elements = document.querySelectorAll('[data-category]:not([data-category="' + categoryValue + '"])');
         elements.forEach(function(element) {
             element.remove();
