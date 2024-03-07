@@ -19,7 +19,7 @@ permalink: "/categories"
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ category[0] }}</h5>
-                    <p class="card-text">There are {{ category[0] | downcase }} posts 
+                    <p class="card-text">There are {{ category[0] | size }} posts 
                     <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}" class="btn btn-dark">Read all <i class="fas fa-external-link-square-alt"></i></a></p>
                 </div>
             </div>
