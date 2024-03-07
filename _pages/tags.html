@@ -17,7 +17,7 @@ permalink: "/tags"
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ tag[0] }}</h5>
-			<h6>{{ site.tags[tag[0]] | size }} posts <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></h6>
+			<h6>{{ site.tags[tag] | size }} posts <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></h6>
                 </div>
             </div>
         </div>
