@@ -18,8 +18,7 @@ permalink: "/categories"
         <div class="col-sm-6 item" id="{{ category[0] | downcase }}">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">{{ category[0] }}</h5>
-                    <p class="card-text">Read all {{ site.categories[category[0]] | size }} posts <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></p>
+                    <h5 class="card-title">{{ category[0] }}</h5>({{ site.categories[category[0]] | downcase | size }} posts )<a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></p>
                 </div>
             </div>
         </div>
