@@ -15,10 +15,12 @@ permalink: "/categories"
 			 <hr>
     <div class="row">
         {% for category in site.categories %}
+	    {% assign category_name = category[0] | downcase %}
         <div class="col-sm-4 item" id="{{ category[0] | downcase }}">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">{{ category[0] }}</h5>({{ site.categories[category[0]] | downcase | size }} posts) <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></p>
+                    <h5 class="card-title">{{ category[0] }}</h5>
+			<h6>{{ site.categories[category_name] | size }} posts</h6> <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></p>
                 </div>
             </div>
         </div>
