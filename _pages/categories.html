@@ -20,7 +20,7 @@ permalink: "/categories"
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ category[0] }}</h5>
-			<h6>{{ site.categories[category_name] | size }} posts</h6> <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></p>
+			<h6>{{ site.categories[category_name] | size }} posts <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></h6>
                 </div>
             </div>
         </div>
