@@ -10,8 +10,9 @@ permalink: "/categories"
 	<div class="row justify-content-center">
 		 <div class="col-md-8">
     <h4 class="font-weight-bold spanborder"><span>{{ page.title }}</span></h4>
-			 <span>Search for a specific category: </span>
+			 <h6>Search for a specific category: </h6>
 	<input type="text" id="filterInput" class="form-control mb-3" placeholder="Search for Categories">
+			 <hr>
     <div class="row">
         {% for category in site.categories %}
         <div class="col-sm-6 item" id="{{ category[0] | downcase }}">
