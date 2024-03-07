@@ -7,6 +7,8 @@ permalink: "/categories"
 ---
 
 <div class="container" id="default-content" style="display: none;">
+	<div class="row justify-content-center">
+		 <div class="col-md-8">
     <h4 class="font-weight-bold spanborder"><span>{{ page.title }}</span></h4>
     <div class="row">
         {% for category in site.categories %}
@@ -20,12 +22,12 @@ permalink: "/categories"
             </div>
         </div>
         {% endfor %}
-    </div>
+    </div></div>
 	<div class="col-md-4">
         {% include sidebar-featured.html %}    
     </div>
 </div>
-
+</div>
 
 
 <div class="container" id="conditional-content" style="display: none;">
