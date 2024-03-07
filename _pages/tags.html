@@ -9,13 +9,13 @@ permalink: "/tags"
 		 <div class="col-md-8">
     <h4 class="font-weight-bold spanborder"><span>{{ page.title }}</span></h4>
     <div class="row">
-        {% for category in site.categories %}
+        {% for tag in site.tags %}
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">{{ category[0] }}</h5>
+                    <h5 class="card-title">{{ tag[0] }}</h5>
                     <p class="card-text">There are articles in this category.</p>
-                    <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}" class="btn btn-primary">View all {{ category[0] | downcase }} articles</a>
+                    <a href="{{ site.baseurl }}/tag?id={{ tag[0] | downcase }}" class="btn btn-primary">View all {{ tag[0] | downcase }} articles</a>
                 </div>
             </div>
         </div>
