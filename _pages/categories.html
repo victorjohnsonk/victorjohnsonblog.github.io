@@ -13,8 +13,8 @@ permalink: "/categories"
 			 <h6>Search for a category </h6>
 	<input type="text" id="filterInput" class="form-control mb-3" placeholder="Start typing a category">
 			 <hr>
-    <div class="row">
         {% for category in site.categories %}
+			 <div class="row">
 	    {% assign category_name = category[0] | downcase %}
         <div class="col-sm-4 item" id="{{ category[0] | downcase }}">
             <div class="card">
@@ -24,8 +24,9 @@ permalink: "/categories"
                 </div>
             </div>
         </div>
+				   </div>
         {% endfor %}
-    </div>
+  
 			  <div id="noResultsMessage" style="display: none;"><h6>No matching items found.</h6></div>
 		 </div>
 	<div class="col-md-4">
