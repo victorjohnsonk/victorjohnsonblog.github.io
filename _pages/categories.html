@@ -10,9 +10,10 @@ permalink: "/categories"
 	<div class="row justify-content-center">
 		 <div class="col-md-8">
     <h4 class="font-weight-bold spanborder"><span>{{ page.title }}</span></h4>
+	<input type="text" id="filterInput" class="form-control mb-3" placeholder="Search for categories">
     <div class="row">
         {% for category in site.categories %}
-        <div class="col-sm-6">
+        <div class="col-sm-6" id="{{ category[0] | downcase }}">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ category[0] }}</h5>
@@ -98,4 +99,18 @@ window.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
+ document.getElementById('filterInput').addEventListener('input', function() {
+        var filterValue = this.value.toLowerCase();
+        var items = document.querySelectorAll('.item');
+        
+        items.forEach(function(item) {
+            if (item.id.toLowerCase().indexOf(filterValue) > -1) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+	
 </script>
