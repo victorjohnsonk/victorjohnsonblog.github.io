@@ -8,19 +8,24 @@ permalink: "/tags"
 	<div class="row justify-content-center">
 		 <div class="col-md-8">
     <h4 class="font-weight-bold spanborder"><span>{{ page.title }}</span></h4>
+			 <h6>Search for a tag </h6>
+	<input type="text" id="filterInput" class="form-control mb-3" placeholder="Start typing a tag">
+			 <hr>
     <div class="row">
         {% for tag in site.tags %}
-        <div class="col-sm-4">
+        <div class="col-sm-6 item" id="{{ tag[0] | downcase }}">
             <div class="card">
-		    <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}" class="btn btn-primary">
-<!--                 <div class="card-body"> -->
+                <div class="card-body">
                     <h5 class="card-title">{{ tag[0] }}</h5>
-<!--                 </div> -->
-		    </a>  
+                    <p class="card-text">There are articles under this tag</p>
+                    <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}" class="btn btn-primary">View all {{ tag[0] | downcase }} articles</a>
+                </div>
             </div>
         </div>
         {% endfor %}
-    </div></div>
+    </div>
+			  <div id="noResultsMessage" style="display: none;"><h6>No matching items found.</h6></div>
+		 </div>
 	<div class="col-md-4">
         {% include sidebar-featured.html %}    
     </div>
@@ -91,4 +96,27 @@ window.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
+
+	 document.getElementById('filterInput').addEventListener('input', function() {
+        var filterValue = this.value.toLowerCase();
+        var items = document.querySelectorAll('.item');
+        var noResultsMessage = document.getElementById('noResultsMessage');
+        
+        var found = false;
+        items.forEach(function(item) {
+            if (item.id.toLowerCase().indexOf(filterValue) > -1) {
+                item.style.display = 'block';
+                found = true;
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        if (!found) {
+            noResultsMessage.style.display = 'block';
+        } else {
+            noResultsMessage.style.display = 'none';
+        }
+    });
 </script>
