@@ -21,28 +21,14 @@ permalink: "/trial"
     </div>
 </div>
 
-<div id="container">
-  {% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
-  {% for letter in alphabet %}
-    {% assign tagsInLetter = "" | split: "" %}
-    {% for tag in site.tags %}
-      {% if tag[0] | slice: 0 == letter %}
-        {% assign tagsInLetter = tagsInLetter | concat: tag[1] %}
-      {% endif %}
-    {% endfor %}
-    {% if tagsInLetter.size > 0 %}
-      <section>
-        <h2>{{ letter }}</h2>
-        <ul>
-          {% assign sortedTags = tagsInLetter | sort %}
-          {% for t in sortedTags %}
-            <li>{{ t }}</li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endif %}
-  {% endfor %}
-</div>
  
-  
+  {% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+{% for tag in sortedtags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a><br>
+{% endfor %}
  
