@@ -25,7 +25,9 @@ permalink: "/categories"
             </div>
         </div>
         {% endfor %}
-    </div></div>
+    </div>
+			  <div id="noResultsMessage" class="alert alert-warning" style="display: none;">No matching items found.</div>
+		 </div>
 	<div class="col-md-4">
         {% include sidebar-featured.html %}    
     </div>
@@ -105,14 +107,23 @@ window.addEventListener("DOMContentLoaded", function() {
  document.getElementById('filterInput').addEventListener('input', function() {
         var filterValue = this.value.toLowerCase();
         var items = document.querySelectorAll('.item');
+        var noResultsMessage = document.getElementById('noResultsMessage');
         
+        var found = false;
         items.forEach(function(item) {
             if (item.id.toLowerCase().indexOf(filterValue) > -1) {
                 item.style.display = 'block';
+                found = true;
             } else {
                 item.style.display = 'none';
             }
         });
+
+        if (!found) {
+            noResultsMessage.style.display = 'block';
+        } else {
+            noResultsMessage.style.display = 'none';
+        }
     });
 	
 </script>
