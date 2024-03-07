@@ -10,13 +10,14 @@ permalink: "/tags"
     <h4 class="font-weight-bold spanborder"><span>{{ page.title }}</span></h4>
     <div class="row">
         {% for tag in site.tags %}
-        <div class="col-sm-6">
+        <div class="col-sm-4">
             <div class="card">
+		<a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}" class="btn btn-primary">
                 <div class="card-body">
                     <h5 class="card-title">{{ tag[0] }}</h5>
-                    <p class="card-text">There are articles in this category.</p>
-                    <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}" class="btn btn-primary">View all {{ tag[0] | downcase }} articles</a>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
+		</a>
             </div>
         </div>
         {% endfor %}
