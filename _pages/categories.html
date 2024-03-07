@@ -79,8 +79,12 @@ window.addEventListener("DOMContentLoaded", function() {
             if (messageParagraph) {
                 messageParagraph.innerHTML = '<p>No elements found for category: ' + categoryValue + '</p>';
             }
+		var defaultContent = document.getElementById('default-content');
+		if (defaultContent) {
+            	defaultContent.style.display = 'block';
         }
-     } else {
+        }
+    } else {
     // Display the same message if no categoryValue is provided
     var defaultContent = document.getElementById('default-content');
     var conditionalContent = document.getElementById('conditional-content');
