@@ -13,12 +13,12 @@ permalink: "/tags"
 			 <hr>
     <div class="row">
         {% for tag in site.tags %}
-        <div class="col-sm-6 item" id="{{ tag[0] | downcase }}">
+        {% assign tag_name = tag[0] | downcase %}
+        <div class="col-sm-4 item" id="{{ tag[0] | downcase }}">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ tag[0] }}</h5>
-                    <p class="card-text">There are articles under this tag</p>
-                    <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}" class="btn btn-primary">View all <i class="fas fa-external-link-square-alt"></i></a>
+			<h6>{{ site.tags[tag_name] | size }} posts <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></h6>
                 </div>
             </div>
         </div>
