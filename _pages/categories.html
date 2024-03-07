@@ -13,7 +13,7 @@ permalink: "/categories"
 	<input type="text" id="filterInput" class="form-control mb-3" placeholder="Search for categories">
     <div class="row">
         {% for category in site.categories %}
-        <div class="col-sm-6" id="{{ category[0] | downcase }}">
+        <div class="col-sm-6 item" id="{{ category[0] | downcase }}">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ category[0] }}</h5>
