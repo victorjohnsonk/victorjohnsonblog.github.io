@@ -32,3 +32,20 @@ permalink: "/trial"
     <a href="/tags/{{ tag }}/">{{ tag }}</a><br>
 {% endfor %}
  
+
+
+<div id="container">
+    {% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] | downcase }}
+  {% endfor %}
+{% endcapture %}
+  {% assign alphabet = "abcdefghijklmnopgrstuvwxyz" | split: "" %}
+  {% for letter in alphabet %}
+    {% for tag in site.tags %}
+      {% if tag[0] | slice: 0 == letter %}
+        <h2>{{ letter | upcase }}</h2>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
