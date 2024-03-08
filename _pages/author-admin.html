@@ -21,9 +21,9 @@ permalink: "/author-admin"
         <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
         
             {% for post in paginator.posts %}
-            {% if post.author == "admin" %}
+<!--             {% if post.author == "admin" %} -->
             {% include main-loop-card.html %}
-            {% endif %}
+<!--             {% endif %} -->
             {% endfor %}
 
 
