@@ -20,9 +20,10 @@ permalink: "/author-admin"
         </div>
         <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
         
-            {% assign posts = paginator.posts | where:"author","admin" %}
-            {% for post in posts %}
+            {% for post in paginator.posts %}
+            {% if post.author == "admin" %}
             {% include main-loop-card.html %}
+            {% endif %}
             {% endfor %}
         
     </div>
