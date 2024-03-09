@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Will AI Replace Medical Coders"
+title:  "Will AI Replace Medical Coders?"
 permalink : /will-ai-replace-medical-coders
 author: admin
 categories: [ Medical Coding ]
