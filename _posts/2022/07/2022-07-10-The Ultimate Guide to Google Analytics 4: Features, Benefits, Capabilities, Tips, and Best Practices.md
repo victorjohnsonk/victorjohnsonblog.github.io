@@ -4,7 +4,7 @@ title:  "The Ultimate Guide to Google Analytics 4: Features, Benefits, Capabilit
 permalink : /the-ultimate-guide-to-google-analytics-4-features-benefits-capabilities-tips-and-best-practices
 author: admin
 categories: [ Web Analytics ]
-image: assets/images/4.jpg
+image: assets/images/posts/2022/08/ga4-3.jpg
 tags: [analytics, google analytics]
 ---
 
@@ -34,6 +34,10 @@ GA4 provides businesses with insights into the lifetime value of their customers
 
 ### 9. Audience analysis
 GA4 offers advanced audience analysis capabilities, enabling businesses to create custom segments and analyze user behaviour within each segment.
+
+![Google Analytics 4](assets/images/posts/2022/08/ga4-1.jpg "Google Analytics 4")
+###### *Google Analytics 4 - Source : EvolveMedia*
+
 
 ## Benefits of Google Analytics 4
 
@@ -85,6 +89,10 @@ GA4 can track user behaviour across multiple channels, such as websites, apps, a
 
 ### 5. Set up conversion tracking
 Conversion tracking is an essential feature in GA4 that allows businesses to track specific user actions that align with their business goals, such as completing a purchase or signing up for a newsletter. Make sure to set up conversion tracking to measure your success and optimize your campaigns.
+
+![Google Analytics 4](assets/images/posts/2022/08/ga4-2.png "Google Analytics 4")
+###### *Google Analytics 4 - Source : bounteous.com*
+
 
 ## Best Practices for using Google Analytics 4:
 
