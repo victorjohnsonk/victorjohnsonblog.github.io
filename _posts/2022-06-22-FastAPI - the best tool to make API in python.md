@@ -4,7 +4,7 @@ title:  "FastAPI - the best tool to make API in python"
 permalink : /fastapi-the-best-tool-to-make-api-in-python
 author: admin
 categories: [ Programming ]
-image: assets/images/posts/2022/06/api-1.png
+image: assets/images/posts/2022/06/api-1.jpg
 tags: [python, api, FastAPI, featured]
 ---
 
