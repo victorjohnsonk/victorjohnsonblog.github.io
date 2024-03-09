@@ -18,6 +18,7 @@ mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:year/:month/:day/:title/
+relative_permalinks: false
 
 # Plugins
 plugins: 
