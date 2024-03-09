@@ -4,7 +4,7 @@ title:  "What is Data Visualization and ow is it helpful?"
 permalink : /what-is-data-visualization-and-how-is-it-helpful
 author: admin
 categories: [ Analytics, Visualization ]
-image: assets/images/9.jpg
+image: assets/images/posts/2022/08/datavisual-2.jpg
 tags: [analytics, visualization, dashboard, graphs ]
 ---
 
@@ -13,6 +13,9 @@ In the fast-paced digital landscape of the 21st century, data has become the lif
 Data visualization encompasses a broad spectrum of techniques, ranging from simple charts and graphs to complex interactive dashboards. At its core, data visualization is the art of presenting data in a visually appealing and comprehensible format, allowing users to explore, analyze, and interpret data with ease. By leveraging the innate human ability to process visual information rapidly, data visualization enables organizations to unlock the untapped potential of their data, driving innovation, efficiency, and informed decision-making.
 
 However, data visualization is not a one-size-fits-all solution. It requires a nuanced understanding of the data being visualized, the audience it is intended for, and the objectives of the analysis. From choosing the right visualization technique to designing an intuitive user interface, every aspect of data visualization demands careful consideration and expertise. In this comprehensive guide, we will delve deep into the world of data visualization, exploring its various techniques, applications, and benefits, and equipping you with the knowledge and tools to harness the power of data visualization effectively.
+
+![Data Visualization Example](assets/images/posts/2022/08/datavisual-1.png "Representative image data visualization")
+###### *Representative image of data visualization - Source : pixabay.com *
 
 ## Understanding Data Visualization
 Data visualization is more than just a means of presenting data visually; it is a powerful tool for uncovering insights, identifying patterns, and communicating complex information effectively. By transforming raw data into visual representations such as charts, graphs, and maps, data visualization enables users to discern trends, relationships, and anomalies that may not be apparent in tabular data. Whether it's analyzing sales trends, tracking customer behavior, or visualizing geographic data, data visualization provides a visual context that enhances understanding and facilitates decision-making.
@@ -58,6 +61,9 @@ Visualizations facilitate clearer and more effective communication of data-drive
 
 #### Greater Engagement
 Visualizations are inherently engaging and can capture the attention of viewers more effectively than plain text or numerical data. By leveraging visual elements such as colors, shapes, and patterns, visualizations create an immersive experience that stimulates curiosity and encourages exploration, leading to greater engagement and retention of information.
+
+![Data Visualization Example](assets/images/posts/2022/08/datavisual-3.png "Representative image data visualization")
+###### *Representative image of data visualization - Source : pixabay.com *
 
 ## How Data Visualization is Helpful?
 
