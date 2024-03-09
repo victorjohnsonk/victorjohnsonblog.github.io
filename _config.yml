@@ -17,7 +17,7 @@ email: 'mail.opendatablog@gmail.com'
 mailchimp-list: ''
 
 include: ["_pages"]
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 
 # Plugins
 plugins: 
