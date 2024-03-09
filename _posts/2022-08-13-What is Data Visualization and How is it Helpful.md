@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is Data Visualization and how is it helpful?"
+title:  "What is Data Visualization and ow is it helpful?"
 permalink : /what-is-data-visualization-and-how-is-it-helpful
 author: admin
 categories: [ Analytics, Visualization ]
