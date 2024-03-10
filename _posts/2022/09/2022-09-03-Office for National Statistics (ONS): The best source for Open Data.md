@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Office for National Statistics (ONS): The best source for Open Data"
-permalink : /office-for-ntional-statistics-the-best-source-for-open-data
+permalink : /office-for-national-statistics-the-best-source-for-open-data
 author: admin
 categories: [ Open Data ]
 image: assets/images/posts/2022/09/ons-3.jpg
