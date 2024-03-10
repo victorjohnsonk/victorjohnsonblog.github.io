@@ -81,8 +81,9 @@ window.addEventListener("DOMContentLoaded", function() {
     var categoryValue = urlParams.get('id');
     if (categoryValue) {
         var elements = document.querySelectorAll('[data-category]:not([data-category="' + categoryValue + '"])');
+	let capitalizedString = categoryValue.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
         if (elements.length > 0) {
-	// document.title = categoryValue;
+	    document.title = capitalizedString;
             elements.forEach(function(element) {
                 element.remove();
             });
