@@ -62,9 +62,6 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
-                    <p class="excerpt">
-                    {{ second_post.excerpt | strip_html | strip_newlines | truncate: 50 }}
-                    </p>
                     <small class="d-block text-muted">
                         In <span class="catlist">
                         {% for category in second_post.categories %}
