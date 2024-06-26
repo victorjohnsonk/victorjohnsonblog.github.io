@@ -1,7 +1,10 @@
 /*!
  * Mundana Jekyll Theme (https://www.wowthemes.net/mundana-jekyll-theme/)
  */
-
+.lazyload,
+.lazyload-bg {
+    background-color: #f0f0f0; /* Placeholder color */
+}
 body {
 	overflow-x:hidden;
 	padding-top:69.75px;
