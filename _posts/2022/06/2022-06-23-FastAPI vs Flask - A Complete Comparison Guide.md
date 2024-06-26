@@ -4,7 +4,7 @@ title:  "FastAPI vs Flask - A Complete Comparison Guide"
 permalink : /fastapi-vs-flask-a-complete-comparison-guide
 author: admin
 categories: [ Programming ]
-image: assets/images/posts/2022/06/api-3.jpg
+image: assets/images/posts/2022/06/api-3.webp
 tags: [python, api, FastAPI, Flask, featured]
 ---
 
@@ -18,7 +18,7 @@ Flask is a lightweight web framework that was first released in 2010. It is easy
 ## FastAPI
 FastAPI is a relatively new web framework that was first released in 2019. It is built on top of the Starlette framework and uses Python type annotations to provide an easy-to-use and highly performant API framework. FastAPI is designed to be easy to learn and use, and provides several features out of the box, including automatic API documentation, data validation, and asynchronous support.
 
-![API Image](assets/images/posts/2022/06/api-1.jpg "API Image")
+![API Image](assets/images/posts/2022/06/api-1.webp "API Image")
 ###### *Representative image of API - Source: pixabay.com*
 
 # Comparison between Flask and FastAPI
