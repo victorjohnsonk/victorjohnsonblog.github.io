@@ -42,7 +42,6 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
                 </span>                   
         </small>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d, %Y' }}
             {{ latest_post.last_modified_at | date: '%b %d, %Y' }}
         </small>
     </div>
@@ -82,7 +81,7 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ second_post.date | date: '%b %d, %Y' }}
+                        {{ second_post.last_modified_at | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
@@ -117,7 +116,7 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ third_post.date | date: '%b %d, %Y' }}
+                        {{ third_post.last_modified_at | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
@@ -152,7 +151,7 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ fourth_post.date | date: '%b %d, %Y' }}
+                        {{ fourth_post.last_modified_at | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
