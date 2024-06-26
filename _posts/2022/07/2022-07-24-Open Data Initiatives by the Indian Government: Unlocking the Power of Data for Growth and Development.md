@@ -6,7 +6,7 @@ author: admin
 categories: [ Open Data ]
 image: assets/images/9.jpg
 tags: [open banking, open data]
-last_modified_at: 2024-06-26 00:00:00 +0100
+last_modified_at: 2024-06-12 00:00:00 +0100
 ---
 
 Open data refers to the idea that government data should be freely available to the public, in a format that is easily accessible and usable. The Indian government has recognized the value of open data and has launched various initiatives to promote its adoption, with the aim of fostering transparency, accountability, and promoting innovation. In this article, we will provide a comprehensive overview of open data initiatives launched by the Indian government and their impact on growth and development.
