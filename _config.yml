@@ -14,7 +14,7 @@ google_analytics: G-2Z3TH1QNPJ # Put your Google Analytics code
 google_adsense: ca-pub-8547389836635390  # Put your Google Adsense code
 disqus: 'open-data-blog'
 email: 'mail.opendatablog@gmail.com'
-mailchimp-list: ''
+feedburner-list: 'https://api.follow.it/subscription-form/ZkUwV3dHUnNYQ3Vqa29mcDBwajVId0dkbGtsUTlxcUJ4Z3FHdHRoanhxOEtkRlZQS1VNcGE2VGdveWNoZHhmbzlFa1UwM2pPWEdVWUQySENzSDRydmZ0N0ltaXhCRUtqVk1SVE4waXUwczRvZWRTSkVkdUpCR2RnK1JJSHc5Uit8UXpYZTVkUENZaUNoYmczSXAvZzBUOGszOFBqTklFZUlVZ2FxYWhLekpUMD0=/8'
 
 include: ["_pages"]
 permalink: /:title/
