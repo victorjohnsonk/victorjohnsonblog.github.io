@@ -13,23 +13,27 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Font Awesome Icons: Preloaded to fetch early but not block rendering -->
+<link rel="preload" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></noscript>
 
-    <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+<!-- Google Fonts: Preloaded to fetch early but not block rendering -->
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700"></noscript>
 
-    <!-- Bootstrap Modified -->
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+<!-- Bootstrap Modified: Critical CSS inlined if small or loaded with preload if larger -->
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 
-    <!-- Theme Stylesheet -->
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
+<!-- Theme Stylesheet: Defer non-critical CSS -->
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css"></noscript>
 
-    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+<!-- Jquery: Deferred loading using 'defer' attribute -->
+<script defer
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
 
     {% include tracking-header.html %}
 
@@ -67,12 +71,14 @@
     </main>
 
 
-    <!-- Scripts: popper, bootstrap, theme, lunr -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+   <!-- Popper.js: Defer loading to not block HTML parsing -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!-- Bootstrap JavaScript: Defer loading to not block HTML parsing -->
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-    <script src="{{site.baseurl}}/assets/js/theme.js"></script>
+<!-- Site-specific JavaScript: Defer loading to not block HTML parsing -->
+<script defer src="{{site.baseurl}}/assets/js/theme.js"></script>
 
 
     <!-- Footer -->
