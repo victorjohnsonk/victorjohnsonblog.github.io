@@ -6,6 +6,7 @@ author: admin
 categories: [ Open Banking ]
 image: assets/images/7.jpg
 tags: [open banking, featured]
+last_modified_at: 2024-06-26 00:00:00 +0100
 ---
 
 Open Banking is a term that has gained widespread attention in recent years. It refers to the practice of allowing third-party providers to access financial data held by banks and other financial institutions. This data can include information about a customer's bank account balances, transaction history, and spending habits. Open Banking is enabled by application programming interfaces (APIs), which allow third-party providers to access and use this data in a secure and standardized manner.
