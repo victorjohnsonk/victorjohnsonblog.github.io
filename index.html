@@ -43,6 +43,7 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
         </small>
         <small class="text-muted">
             {{ latest_post.date | date: '%b %d, %Y' }}
+            {{ latest_post.last_modified_at | date: '%b %d, %Y' }}
         </small>
     </div>
     </div>
