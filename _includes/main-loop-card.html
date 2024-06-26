@@ -14,7 +14,7 @@
 		</span>
 	</small>
 	<small class="text-muted">
-		{{ post.date | date: '%b %d, %Y' }}
+		{{ post.last_modified_at | date: '%b %d, %Y' }}
 	</small>
 </div>
 {% if post.image %}
