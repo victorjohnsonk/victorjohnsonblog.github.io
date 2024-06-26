@@ -91,6 +91,66 @@
 
     {% include tracking-footer.html %}
 
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let lazyloadThrottleTimeout;
+
+            function lazyload() {
+                if (lazyloadThrottleTimeout) {
+                    clearTimeout(lazyloadThrottleTimeout);
+                }
+
+                lazyloadThrottleTimeout = setTimeout(function() {
+                    let scrollTop = window.pageYOffset;
+                    
+                    // Lazy load images
+                    let lazyloadImages = document.querySelectorAll("img.lazyload");
+                    lazyloadImages.forEach(function(img) {
+                        if (img.offsetTop < (window.innerHeight + scrollTop)) {
+                            let src = img.getAttribute('data-src');
+                            if (src) {
+                                img.setAttribute('src', src);
+                                img.removeAttribute('data-src');
+                                img.classList.remove('lazyload');
+                            }
+                        }
+                    });
+
+                    // Lazy load background images
+                    let lazyloadBgImages = document.querySelectorAll(".lazyload-bg");
+                    lazyloadBgImages.forEach(function(div) {
+                        if (div.offsetTop < (window.innerHeight + scrollTop)) {
+                            let src = div.getAttribute('data-src');
+                            if (src) {
+                                div.style.backgroundImage = 'url(' + src + ')';
+                                div.removeAttribute('data-src');
+                                div.classList.remove('lazyload-bg');
+                            }
+                        }
+                    });
+
+                    // Re-query elements since some may have been removed
+                    lazyloadImages = document.querySelectorAll("img.lazyload");
+                    lazyloadBgImages = document.querySelectorAll(".lazyload-bg");
+                    
+                    if (lazyloadImages.length == 0 && lazyloadBgImages.length == 0) {
+                        document.removeEventListener("scroll", lazyload);
+                        window.removeEventListener("resize", lazyload);
+                        window.removeEventListener("orientationChange", lazyload);
+                    }
+                }, 20);
+            }
+
+            document.addEventListener("scroll", lazyload);
+            window.addEventListener("resize", lazyload);
+            window.addEventListener("orientationChange", lazyload);
+            
+            // Initial check in case images are in the viewport on load
+            lazyload();
+        });
+    </script>
+
 </body>
 
 </html>
