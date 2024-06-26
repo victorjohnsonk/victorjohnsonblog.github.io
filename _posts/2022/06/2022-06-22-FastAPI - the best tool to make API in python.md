@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "FastAPI - the best tool to make API in python"
+description: "Explore FastAPI, a modern framework ideal for building high-performance APIs in Python with async support and automatic documentation."
 permalink : /fastapi-the-best-tool-to-make-api-in-python
 author: admin
 categories: [ Programming ]
