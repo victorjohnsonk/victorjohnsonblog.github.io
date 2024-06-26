@@ -4,7 +4,7 @@ title:  "FastAPI - the best tool to make API in python"
 permalink : /fastapi-the-best-tool-to-make-api-in-python
 author: admin
 categories: [ Programming ]
-image: assets/images/posts/2022/06/api-1.jpg
+image: assets/images/posts/2022/06/api-1.webp
 tags: [python, api, FastAPI, featured]
 ---
 
@@ -27,7 +27,7 @@ There are several reasons why FastAPI is a great choice for building APIs in Pyt
 
 - Open-Source and Community-Driven: FastAPI is an open-source project, which means that it is free to use and anyone can contribute to its development. The framework has a large and active community of developers, which ensures that it is constantly improving and evolving.
 
-![API Image](assets/images/posts/2022/06/api-2.jpg "API Image")
+![API Image](assets/images/posts/2022/06/api-2.webp "API Image")
 ###### *Representative image of API - Source: pexels.com*
 
 ### Getting Started with FastAPI:
