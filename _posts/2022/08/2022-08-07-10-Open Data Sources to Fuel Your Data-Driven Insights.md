@@ -6,7 +6,7 @@ author: admin
 categories: [ Analytics ]
 image: assets/images/9.jpg
 tags: [open data, dataset]
-last_modified_at: 2024-06-26 00:00:00 +0100
+last_modified_at: 2024-06-19 00:00:00 +0100
 ---
 
 In the era of big data, the availability of open data sources has revolutionized the way researchers, businesses, and policymakers approach data-driven decision-making. Open data is the practice of making data available to the public without any restrictions or limitations on its use, distribution, or reuse. Open data sources can include a wide range of information, from government statistics to private sector data sets, and can be used for a variety of purposes, including research, planning, and innovation.
