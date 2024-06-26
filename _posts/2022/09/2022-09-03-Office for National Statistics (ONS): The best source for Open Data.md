@@ -4,7 +4,7 @@ title:  "Office for National Statistics (ONS): The best source for Open Data"
 permalink : /office-for-national-statistics-the-best-source-for-open-data
 author: admin
 categories: [ Open Data ]
-image: assets/images/posts/2022/09/ons-3.jpg
+image: assets/images/posts/2022/09/ons-3.webp
 tags: [ open data, dataset, ons ]
 ---
 
@@ -31,7 +31,7 @@ Government departments and non-profit organizations rely on ONS data to formulat
 #### Academic Research
 ONS data serves as a valuable resource for academic researchers across disciplines. Scholars use ONS datasets to conduct empirical studies, test hypotheses, and advance knowledge in fields such as economics, sociology, demography, public health, and environmental science. By providing access to high-quality and nationally representative data, ONS supports evidence-based research and contributes to academic discourse.
 
-![Office for National Statistics](assets/images/posts/2022/09/ons-1.png "Office for National Statistics")
+![Office for National Statistics](assets/images/posts/2022/09/ons-1.webp "Office for National Statistics")
 ###### *Office for National Statistics Representative Image - Source : ons.gov.uk*
 
 
@@ -68,7 +68,7 @@ Journalists: for investigative reporting, data-driven storytelling, and fact-che
 ## License and Legal Considerations
 While the majority of ONS data is freely accessible, users should be aware of any licensing agreements or usage restrictions associated with specific datasets. ONS provides guidance on data licensing and copyright issues to ensure compliance with legal requirements. Users are encouraged to attribute ONS as the source of the data when citing or referencing ONS statistics in publications, presentations, or other forms of dissemination.
 
-![Office for National Statistics](assets/images/posts/2022/09/ons-2.png "Office for National Statistics")
+![Office for National Statistics](assets/images/posts/2022/09/ons-2.webp "Office for National Statistics")
 ###### *Office for National Statistics Representative Image - Source : ons.gov.uk*
 
 
