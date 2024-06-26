@@ -6,6 +6,7 @@ author: admin
 categories: [ Programming ]
 image: assets/images/1.jpg
 tags: [python, type-hints, featured]
+last_modified_at: 2024-06-26 00:00:00 +0100
 ---
 
 Python is an incredibly flexible language that allows developers to write code that is both powerful and expressive. One of the drawbacks of this flexibility is that it can make it difficult to maintain code as projects grow in complexity. One solution to this problem is to use type hints, which are a way to add stronger types to Python code.
