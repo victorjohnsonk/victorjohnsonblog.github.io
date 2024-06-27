@@ -244,3 +244,10 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
 </div>
 
 </div>
+
+<!-- Subscribe Form -->
+{% if site.feedburner-list %}
+    <div class="container">
+{% include newsletter.html %}
+    </div>
+{% endif %}
