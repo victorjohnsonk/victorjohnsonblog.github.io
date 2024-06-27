@@ -69,7 +69,7 @@ highlighter: rouge
 # Paginate
 paginate: 15
 paginate_path: "/page/:num"
-offset: 5
+paginate_offset: 5
 
 
 
