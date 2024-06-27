@@ -25,6 +25,8 @@ There are several reasons why FastAPI is a great choice for building APIs in Pyt
 
 - Automatic API Documentation: FastAPI automatically generates API documentation based on the type annotations and docstrings in the code. This makes it easy to understand the API endpoints and their functionality.
 
+{% include random-related-article.html %}
+
 - Validation: FastAPI uses Pydantic for data validation and settings management. Pydantic provides a way to define data models with validation rules, which makes it easy to ensure that the data sent to the API is in the correct format.
 
 - Open-Source and Community-Driven: FastAPI is an open-source project, which means that it is free to use and anyone can contribute to its development. The framework has a large and active community of developers, which ensures that it is constantly improving and evolving.
@@ -43,7 +45,7 @@ The first step is to install FastAPI. FastAPI can be installed using pip, the pa
 
 This will install the latest version of FastAPI and its dependencies.
 
-{% include random-related-article.html %}
+
 
 #### Creating a New API:
 Once FastAPI is installed, we can create a new API project. To create a new API project, we need to create a new Python file and import the FastAPI class.
@@ -138,6 +140,8 @@ FastAPI makes it easy to handle errors using the HTTPException class. We can use
         return {"item_id": item_id}
 
 In the above code, we have defined a new endpoint /items/{item_id} that accepts an item_id parameter. If the item_id parameter is 0, we are raising an HTTPException with a 400 status code and a detail message Item not found.
+
+{% include random-related-article.html %}
 
 ## Conclusion
 FastAPI is a powerful and easy-to-use web framework that makes building APIs in Python a breeze. Its simplicity, speed, and performance make it an excellent choice for developers looking to create high-performance web applications. The framework's ability to automatically generate documentation and validate input and output data using Pydantic models is a big plus. The framework's async capabilities make it ideal for handling multiple requests simultaneously, leading to fast response times and minimal downtime.
