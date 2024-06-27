@@ -23,6 +23,8 @@ The Open Government Data Platform (OGD) was launched in 2012 to provide a single
 
 The OGD also provides various tools to visualize and analyze the data, allowing researchers and developers to create innovative applications and services.
 
+{% include random-related-article.html %}
+
 ## National Informatics Centre (NIC)
 The National Informatics Centre (NIC) is the central agency for providing e-governance solutions to the government of India. The NIC has launched various initiatives to promote the use of open data, including the creation of a data repository and data visualization tools.
 
@@ -42,6 +44,8 @@ One such initiative is the Smart Cities Open Data Challenge, which encourages de
 The Digital India Programme was launched in 2015 to transform India into a digitally empowered society and knowledge economy. The programme has launched various initiatives to promote the use of open data, such as the Digital India Data Portal, which provides access to data from various government departments.
 
 The programme has also launched the Open Application Programming Interfaces (API) Policy, which mandates that all government departments should make their APIs available to the public in a machine-readable format. This has led to the creation of various applications, such as the DigiLocker, which allows citizens to store and share their documents online.
+
+{% include random-related-article.html %}
 
 ## National Health Stack
 The National Health Stack is a set of open APIs and standards for the healthcare sector, launched in 2018. The stack aims to promote the interoperability of health data and improve the efficiency of healthcare delivery.
