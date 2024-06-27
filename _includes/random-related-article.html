@@ -4,11 +4,31 @@
 {% assign current_article_categories = page.categories %}
 {% assign current_article_permalink = page.permalink %}
 
-{% assign related_articles = site.posts | where_exp: "post", "post.permalink != current_article_permalink" | where_exp: "post", "post.tags | join: ',' | append: ',' | append: current_article_tags | join: ',' | split: ',' | uniq | size > post.tags | size" | where_exp: "post", "post.categories | join: ',' | append: ',' | append: current_article_categories | join: ',' | split: ',' | uniq | size > post.categories | size" %}
+{% comment %}
+  Filter out the current article
+{% endcomment %}
+{% assign other_articles = site.posts | where_exp: "post", "post.permalink != current_article_permalink" %}
 
+{% comment %}
+  Initialize an empty array to hold related articles
+{% endcomment %}
+{% assign related_articles = "" | split: "" %}
+
+{% comment %}
+  Loop through other articles to find related ones
+{% endcomment %}
+{% for post in other_articles %}
+  {% if post.tags | where: 'name', current_article_tags | size > 0 or post.categories | where: 'name', current_article_categories | size > 0 %}
+    {% assign related_articles = related_articles | push: post %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+  Pick a random article from the related articles if any are found
+{% endcomment %}
 {% if related_articles.size > 0 %}
   {% assign random_article = related_articles | sample %}
-
+  
   <div class="random-article">
     <h2>Related Article</h2>
     <a href="{{ random_article.url }}">{{ random_article.title }}</a>
