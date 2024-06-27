@@ -8,6 +8,7 @@
 
     {% seo %}
     {% if page.last_modified_at %}
+    {% assign home = true %}
     <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}" />
       {% endif %}
     <meta name="follow.it-verification-code" content="{{ site.follow-it-verification-code }}"/>
