@@ -29,11 +29,11 @@
 {% if related_articles.size > 0 %}
   {% assign random_article = related_articles | sample %}
   
-<div class="border p-3 bg-lightblue" bis_skin_checked="1">
+<div class="border p-3 bg-lightblue">
     <div >
     ALSO READ : <a href="{{ random_article.url }}">{{ random_article.title }}</a>
-      
     </div>
+  
 </div>
 {% endif %}
 
