@@ -5,6 +5,8 @@ permalink : /will-ai-replace-medical-coders
 author: admin
 categories: [ Medical Coding ]
 image: assets/images/posts/2022/08/medical-2.jpg
+title-image: Medical Coder
+title-image-source: pixabay.com
 tags: [ ai ]
 last_modified_at: 2024-06-22 00:00:00 +0100
 ---
@@ -30,6 +32,9 @@ The advancements in AI technology have revolutionized medical coding by enabling
 
 ![Medical Coding and AI](assets/images/posts/2022/08/medical-1.jpg "Medical Coding and AI")
 ###### *Medical Coding and AI - Source : pixabay.com*
+<small> 
+    <span class="text-muted d-block mt-1"> Medical Coding and AI - Source : pixabay.com </span> 
+</small>
 
 
 ## Example of How AI Can Work in Medical Coding
