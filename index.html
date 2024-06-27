@@ -233,9 +233,7 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
         
         <h4 class="font-weight-bold spanborder d-none d-xl-block"><span>All Stories</span></h4>
         
- {% assign remaining_posts = paginator.posts | offset: 5 %}
-        
-        {% for post in remaining_posts.posts %}
+        {% for post in paginator.posts %}
         
             {% include main-loop-card.html %}
         
