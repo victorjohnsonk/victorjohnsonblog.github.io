@@ -4,14 +4,8 @@
 {% assign current_article_categories = page.categories %}
 {% assign current_article_permalink = page.permalink %}
 
-{% comment %}
-  Filter articles by matching tags and categories
-{% endcomment %}
-{% assign related_articles = site.posts | where_exp: "post", "post.permalink != current_article_permalink" | where_exp: "post", "post.tags | intersection: current_article_tags | size > 0" | where_exp: "post", "post.categories | intersection: current_article_categories | size > 0" %}
+{% assign related_articles = site.posts | where_exp: "post", "post.permalink != current_article_permalink" | where_exp: "post", "post.tags | join: ',' | append: ',' | append: current_article_tags | join: ',' | split: ',' | uniq | size > post.tags | size" | where_exp: "post", "post.categories | join: ',' | append: ',' | append: current_article_categories | join: ',' | split: ',' | uniq | size > post.categories | size" %}
 
-{% comment %}
-  Pick a random article from the related articles
-{% endcomment %}
 {% if related_articles.size > 0 %}
   {% assign random_article = related_articles | sample %}
 
