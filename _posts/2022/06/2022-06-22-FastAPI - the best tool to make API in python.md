@@ -43,6 +43,8 @@ The first step is to install FastAPI. FastAPI can be installed using pip, the pa
 
 This will install the latest version of FastAPI and its dependencies.
 
+{% include random-related-article.html %}
+
 #### Creating a New API:
 Once FastAPI is installed, we can create a new API project. To create a new API project, we need to create a new Python file and import the FastAPI class.
 
