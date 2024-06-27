@@ -27,7 +27,7 @@ layout: default
                 {% if page.image %}
 				<div class="col-md-6 pr-0 align-self-center">
 					<img class="rounded lazyload" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-					Representative Image - Source : google.com
+					 <span class="text-muted d-block mt-1"> Representative Image - Source : google.com </span>
 				</div>
                 {% endif %}
 			</div>
