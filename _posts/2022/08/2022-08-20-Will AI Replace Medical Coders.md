@@ -31,10 +31,7 @@ The potential of AI in medical coding extends beyond simple automation; it also 
 The advancements in AI technology have revolutionized medical coding by enabling accurate, efficient, and scalable coding processes. These systems continuously learn and improve over time, ensuring compliance with coding guidelines and standards while providing valuable insights for healthcare stakeholders. As AI continues to evolve, its potential to transform medical coding and enhance healthcare delivery remains promising.
 
 ![Medical Coding and AI](assets/images/posts/2022/08/medical-1.jpg "Medical Coding and AI")
-###### *Medical Coding and AI - Source : pixabay.com*
-<small> 
-    <span class="text-muted d-block mt-1"> Medical Coding and AI - Source : pixabay.com </span> 
-</small>
+<small> Medical Coding and AI - Source : pixabay.com </small>
 
 
 ## Example of How AI Can Work in Medical Coding
@@ -80,7 +77,7 @@ Furthermore, the insights derived from AI-powered analytics can inform populatio
 The integration of AI in medical coding has a profound impact on the healthcare industry, improving operational efficiency, financial performance, and patient outcomes. By automating routine coding tasks and providing valuable insights, AI empowers healthcare providers to deliver high-quality care and optimize their resource utilization strategies.
 
 ![Medical Coding and AI](assets/images/posts/2022/08/medical-3.jpg "Medical Coding and AI")
-###### *Medical Coding and AI - Source : pixabay.com*
+<small> Medical Coding and AI - Source : pixabay.com </small>
 
 In the crucible of healthcare's technological evolution, the integration of AI in medical coding represents both a harbinger of progress and a harbinger of profound change. The advancements in AI technology have endowed healthcare organizations with unprecedented tools to streamline coding processes, enhance accuracy, and optimize resource allocation. The potential benefits are manifold: expedited reimbursement cycles, improved financial performance, and better patient outcomes through enhanced clinical documentation.
 
