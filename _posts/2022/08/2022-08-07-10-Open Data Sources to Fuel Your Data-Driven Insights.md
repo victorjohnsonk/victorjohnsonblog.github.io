@@ -28,6 +28,7 @@ In this article, we'll take a closer look at 10 of the best open data sources av
 #### 9. Eurostat
 #### 10. OpenDataSoft
 
+{% include random-related-article.html %}
 
 Let's understand more about each of the sources mentioned above.
 
@@ -61,6 +62,8 @@ Access UN Data at [https://data.un.org/](https://data.un.org/)
 
 ## 5. Kaggle
 Kaggle is a platform for data scientists and machine learning enthusiasts to share and collaborate on datasets and competitions. This platform is particularly useful for businesses and researchers who need access to high-quality data sets and want to collaborate with other data scientists.
+
+{% include random-related-article.html %}
 
 Kaggle provides data sets on a wide range of topics, from climate change to social media sentiment analysis. For example, you can find data sets on the housing market, COVID-19 vaccination rates, and customer churn. The platform also hosts competitions that allow data scientists to compete and collaborate on specific data-driven challenges.
 
@@ -96,6 +99,8 @@ Access Eurostat at [https://ec.europa.eu/eurostat/data/database](https://ec.euro
 
 ## 10. OpenDataSoft
 OpenDataSoft is a platform that provides access to a wide range of open data sets from public and private organizations around the world. This platform is particularly useful for businesses and researchers who need access to high-quality data sets and want to collaborate with other data scientists.
+
+{% include random-related-article.html %}
 
 OpenDataSoft provides data sets on a wide range of topics, including transportation, environment, and public safety. For example, you can find data sets on traffic congestion, air quality, and crime rates. The platform also includes tools for collaborating on data-driven projects and for creating custom data visualizations.
 
