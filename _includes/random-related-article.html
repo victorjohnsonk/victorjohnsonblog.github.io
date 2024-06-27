@@ -29,8 +29,16 @@
 {% if related_articles.size > 0 %}
   {% assign random_article = related_articles | sample %}
   
-  <div class="random-article">
-    <h2>Related Article</h2>
-    <a href="{{ random_article.url }}">{{ random_article.title }}</a>
-  </div>
+ <div class="border p-5 bg-lightblue" bis_skin_checked="1">
+    <div class="row justify-content-between">
+        <div class="col-md-6 mb-2 mb-md-0">
+            <h5 class="font-weight-bold">Related Article</h5>
+        </div>
+        <div class="col-md-6">
+                 <a href="{{ random_article.url }}">{{ random_article.title }}</a>
+        </div>
+    </div>
+</div>
 {% endif %}
+
+
