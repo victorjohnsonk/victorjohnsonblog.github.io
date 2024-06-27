@@ -22,6 +22,10 @@ permalink: /:title/
 # permalink: /:year/:month/:day/:title/
 # relative_permalinks: false
 
+collections:
+  posts:
+    output: true
+
 # Plugins
 plugins: 
   - jekyll-feed
