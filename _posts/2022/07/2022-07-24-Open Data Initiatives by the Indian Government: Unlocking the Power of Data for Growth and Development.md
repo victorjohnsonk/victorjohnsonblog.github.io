@@ -3,9 +3,9 @@ layout: post
 title:  "Open Data Initiatives by the Indian Government: Unlocking the Power of Data for Growth and Development"
 permalink : /open-data-initiatives-by-the-indian-government
 author: admin
-categories: [ Open Data ]
+categories: [ open-data ]
 image: assets/images/9.jpg
-tags: [open banking, open data]
+tags: [open-banking, open-data]
 last_modified_at: 2024-06-12 00:00:00 +0100
 ---
 
