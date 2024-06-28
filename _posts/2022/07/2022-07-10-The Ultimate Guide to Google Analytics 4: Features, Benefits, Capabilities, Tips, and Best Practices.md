@@ -3,9 +3,9 @@ layout: post
 title:  "The Ultimate Guide to Google Analytics 4: Features, Benefits, Capabilities, Tips, and Best Practices"
 permalink : /the-ultimate-guide-to-google-analytics-4-features-benefits-capabilities-tips-and-best-practices
 author: admin
-categories: [ Web Analytics ]
+categories: [ web-analytics ]
 image: assets/images/posts/2022/08/ga4-3.jpg
-tags: [analytics, google analytics]
+tags: [analytics, google-analytics]
 last_modified_at: 2024-06-06 00:00:00 +0100
 ---
 
