@@ -3,9 +3,9 @@ layout: post
 title:  "Open Banking: A Comprehensive Guide to its Benefits, Uses, Contributors, Laws and More"
 permalink : /open-banking-a-comprehensive-guide-to-its-benefits-uses-contributors-laws-and-more
 author: admin
-categories: [ Open Banking ]
+categories: [ open-banking ]
 image: assets/images/7.jpg
-tags: [open banking, featured]
+tags: [open-banking, featured]
 last_modified_at: 2024-06-07 00:00:00 +0100
 ---
 
