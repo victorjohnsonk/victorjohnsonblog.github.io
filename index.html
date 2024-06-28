@@ -19,7 +19,7 @@ description: 'Open Data Blog | A blog on open data, datasets, data science, stat
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
     <div class="col-md-6">
-    <div class="card border-0 mb-4 box-shadow d-none d-xl-block">   
+    <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
    <div class="topfirstimage lazyload-bg d-none d-xl-block" 
      data-src="{% if latest_post.image contains '://' %}{{ latest_post.image }}{% else %}{{ site.baseurl }}/{{ latest_post.image }}{% endif %}" 
