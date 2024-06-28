@@ -5,7 +5,7 @@ permalink : /fastapi-vs-flask-a-complete-comparison-guide
 author: admin
 categories: [ Programming ]
 image: assets/images/posts/2022/06/api-3.webp
-tags: [python, api, FastAPI, Flask, featured]
+tags: [Python, API, FastAPI, Flask, featured]
 last_modified_at: 2024-06-02 00:00:00 +0100
 ---
 
