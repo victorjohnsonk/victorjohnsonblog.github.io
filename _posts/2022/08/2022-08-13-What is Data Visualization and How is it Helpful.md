@@ -3,7 +3,7 @@ layout: post
 title:  "What is Data Visualization and How is it helpful?"
 permalink : /what-is-data-visualization-and-how-is-it-helpful
 author: admin
-categories: [ Analytics, Visualization ]
+categories: [ analytics, visualization ]
 image: assets/images/posts/2022/08/datavisual-2.jpg
 tags: [analytics, visualization, dashboard, graphs ]
 last_modified_at: 2024-06-19 00:00:00 +0100
