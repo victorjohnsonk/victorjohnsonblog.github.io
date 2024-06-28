@@ -20,7 +20,7 @@ permalink: "/tags"
     <div class="row">
         {% for tag in site.tags %}
 	<div class="border p-3 bg-lightblue" style="margin: 5px;" id="{{ tag[0] | upcase | replace: '-', ' '   }}">
-    	<div><a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}">{{ tag[0] | upcase | replace: '-', ' '  }}</a>
+    	<div><a class="text-capitalize" href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}">{{ tag[0] | upcase | replace: '-', ' '  }}</a>
     </div>
 </div>
         {% endfor %}
