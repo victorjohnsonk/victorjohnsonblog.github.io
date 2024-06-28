@@ -22,7 +22,7 @@ permalink: "/tags"
         <div class="col-sm-4 p-1 item" id="{{ tag[0] | upcase | replace: '-', ' '   }}">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">{{ tag[0] }}</h5>
+                    <h5 class="card-title">{{ tag[0] | upcase | replace: '-', ' '  }}</h5>
 			<h6>{{ site.tags[tag] | size | upcase | replace: '-', ' ' }} posts <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></h6>
                 </div>
             </div>
