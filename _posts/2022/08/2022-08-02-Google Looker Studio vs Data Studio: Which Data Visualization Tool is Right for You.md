@@ -3,9 +3,9 @@ layout: post
 title:  "Google Looker Studio vs Data Studio: Which Data Visualization Tool is Right for You?"
 permalink : /google-looker-studio-vs-data-studio-which-data-visualization-tool-is-right-for-you
 author: admin
-categories: [ Programming, Web Analytics ]
+categories: [ programming, web-analytics ]
 image: assets/images/home.jpg
-tags: [google looker, visualization, data studio]
+tags: [google-looker, visualization, data-studio]
 last_modified_at: 2024-06-17 00:00:00 +0100
 ---
 
