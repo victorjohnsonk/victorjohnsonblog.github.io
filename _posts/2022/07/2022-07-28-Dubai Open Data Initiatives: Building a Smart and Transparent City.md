@@ -3,9 +3,9 @@ layout: post
 title:  "Dubai Open Data Initiatives: Building a Smart and Transparent City"
 permalink : /dubai-open-data-initiatives-building-a-smart-and-transparent-city
 author: admin
-categories: [ Open Data ]
+categories: [ open-data ]
 image: assets/images/13.jpg
-tags: [open data, dubai]
+tags: [open-data, dubai]
 last_modified_at: 2024-06-15 00:00:00 +0100
 ---
 
