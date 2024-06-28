@@ -3,9 +3,9 @@ layout: post
 title:  "Office for National Statistics (ONS): The best source for Open Data"
 permalink : /office-for-national-statistics-the-best-source-for-open-data
 author: admin
-categories: [ Open Data ]
+categories: [ open-data ]
 image: assets/images/posts/2022/09/ons-3.webp
-tags: [ open data, dataset, ons ]
+tags: [ open-data, dataset, ons ]
 last_modified_at: 2024-06-26 00:00:00 +0100
 ---
 
