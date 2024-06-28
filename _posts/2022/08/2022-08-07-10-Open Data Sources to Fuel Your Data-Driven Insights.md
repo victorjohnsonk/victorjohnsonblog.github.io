@@ -3,9 +3,9 @@ layout: post
 title:  "10 Open Data Sources to Fuel Your Data-Driven Insights"
 permalink : /10-open-data-sources-to-fuel-your-data-driven-insights
 author: admin
-categories: [ Analytics ]
+categories: [ analytics ]
 image: assets/images/9.jpg
-tags: [open data, dataset]
+tags: [open-data, dataset]
 last_modified_at: 2024-06-19 00:00:00 +0100
 ---
 
