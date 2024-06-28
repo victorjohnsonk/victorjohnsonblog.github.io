@@ -3,7 +3,7 @@ layout: post
 title:  "Python Type Hints: Boost Your Code Quality with Stronger Types"
 permalink : /python-type-hints-boost-your-code-quality-with-stronger-types
 author: admin
-categories: [ Programming ]
+categories: [ programming ]
 image: assets/images/1.jpg
 tags: [python, type-hints, featured]
 last_modified_at: 2024-06-04 00:00:00 +0100
