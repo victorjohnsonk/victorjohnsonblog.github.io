@@ -3,7 +3,7 @@ layout: post
 title:  "Unlocking the Potential of Open Data: A Guide to Licensing"
 permalink : /unlocking-the-potential-of-open-data-a-guide-to-licensing
 author: admin
-categories: [ Open Data ]
+categories: [ open-data ]
 image: assets/images/posts/2022/08/license-1.png
 tags: [ license ]
 last_modified_at: 2024-06-24 00:00:00 +0100
