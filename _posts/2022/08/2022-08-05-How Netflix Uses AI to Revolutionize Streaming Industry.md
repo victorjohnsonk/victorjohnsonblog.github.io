@@ -3,9 +3,9 @@ layout: post
 title:  "How Netflix Uses AI to Revolutionize Streaming Industry"
 permalink : /how-netflix-uses-ai-to-revolutionize-streaming-industry
 author: admin
-categories: [ Programming ]
+categories: [ programming ]
 image: assets/images/posts/2022/08/netflix2.webp
-tags: [AI, netflix, sticky]
+tags: [ai, netflix, sticky]
 last_modified_at: 2024-06-18 00:00:00 +0100
 ---
 
