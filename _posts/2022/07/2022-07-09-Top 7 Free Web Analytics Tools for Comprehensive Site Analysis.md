@@ -3,9 +3,9 @@ layout: post
 title:  "Top 7 Free Web Analytics Tools for Comprehensive Site Analysis"
 permalink : /top-7-free-web-analytics-tools-for-comprehensive-site-analysis
 author: admin
-categories: [ Web Analytics ]
+categories: [ web-analytics ]
 image: assets/images/12.jpg
-tags: [analytics, google analytics,adobe analytics, featured]
+tags: [analytics, google-analytics,adobe-analytics, featured]
 last_modified_at: 2024-06-05 00:00:00 +0100
 ---
 
