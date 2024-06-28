@@ -19,14 +19,10 @@ permalink: "/tags"
 			 <hr>
     <div class="row">
         {% for tag in site.tags %}
-        <div class="col-sm-4 p-1 item" id="{{ tag[0] | upcase | replace: '-', ' '   }}">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{ tag[0] | upcase | replace: '-', ' '  }}</h5>
-			<h6>{{ site.tags[tag] | size | upcase | replace: '-', ' ' }} posts <a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></h6>
-                </div>
-            </div>
-        </div>
+	<div class="border p-3 bg-lightblue" style="margin: 5px;" id="{{ tag[0] | upcase | replace: '-', ' '   }}">
+    	<div bis_skin_checked="1"><a href="{{ site.baseurl }}/tags?id={{ tag[0] | downcase }}">{{ tag[0] | upcase | replace: '-', ' '  }}</a>
+    </div>
+</div>
         {% endfor %}
     </div>
 			  <div id="noResultsMessage" style="display: none;"><h6>No matching items found.</h6></div>
