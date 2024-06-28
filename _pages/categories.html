@@ -24,8 +24,8 @@ permalink: "/categories"
         <div class="col-sm-4 p-1 item" id="{{ category[0] | downcase }}">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">{{ category[0] }}</h5>
-			<h6>{{ site.categories[category] | size }} posts <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></h6>
+                    <h5 class="card-title">{{ category[0] | upcase | replace: '-', ' '  }}</h5>
+			<h6>{{ site.categories[category] | size | upcase | replace: '-', ' '  }} posts <a href="{{ site.baseurl }}/categories?id={{ category[0] | downcase }}"><i class="fas fa-external-link-square-alt"></i></a></h6>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@ permalink: "/categories"
         <h1 class="font-weight-bold title h6 text-uppercase mb-4">Categories</h1>
         <div id="no-category-found-message"></div>
         {% for category in site.categories %} 
-        <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}" data-category="{{ category[0] | downcase }}"><span>{{ category[0] }}</span></h4>
+        <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}" data-category="{{ category[0] | downcase }}"><span>{{ category[0] | upcase | replace: '-', ' ' }}</span></h4>
             
         {% assign pages_list = category[1] %}
         {% for post in pages_list %}
