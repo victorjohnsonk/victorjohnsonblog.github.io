@@ -3,9 +3,9 @@ layout: post
 title:  "The Ultimate Guide to Choosing the Best Data Visualization Tool"
 permalink : /the-ultimate-guide-to-choosing-the-best-data-visualization-tool
 author: admin
-categories: [ Programming ]
+categories: [ programming ]
 image: assets/images/3.jpg
-tags: [open data, visualization, tools]
+tags: [open-data, visualization, tools]
 last_modified_at: 2024-06-16 00:00:00 +0100
 ---
 
