@@ -3,7 +3,7 @@ layout: post
 title:  "Will AI Replace Medical Coders?"
 permalink : /will-ai-replace-medical-coders
 author: admin
-categories: [ Medical Coding ]
+categories: [ medical-coding ]
 image: assets/images/posts/2022/08/medical-2.jpg
 title-image: Medical Coder
 title-image-source: pixabay.com
