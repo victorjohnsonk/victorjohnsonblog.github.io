@@ -3,7 +3,7 @@ layout: post
 title:  "Leveraging Open Data to Enhance Anti-Money Laundering (AML) Checks"
 permalink : /leveraging-open-data-to-enhance-anti-money-laundering-checks
 author: admin
-categories: [ aml, open-data,  ]
+categories: [ aml, open-data ]
 image: assets/images/posts/2024/06/aml-2.webp
 title-image: Anti Money Laundering Cartoon
 title-image-source: IconScout.com - Via Google Images
