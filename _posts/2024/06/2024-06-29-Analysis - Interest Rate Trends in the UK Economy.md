@@ -48,6 +48,11 @@ Interest rates in the UK have undergone significant changes over the past decade
 
 ## Impact on Various Sectors
 
+
+![Uk Interest rates - Currency Image](assets/images/posts/2024/06/interest-rate-uk-2.webp "Uk Interest rates - Currency Image")
+###### *Uk Interest rates - British Currency Representative Image - Source : iStock - Via Google Images*
+
+
 ### Housing Market
 
 The rise in interest rates has had a profound impact on the housing market:
