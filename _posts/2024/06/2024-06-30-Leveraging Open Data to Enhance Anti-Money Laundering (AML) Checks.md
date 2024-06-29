@@ -179,10 +179,10 @@ Open data has the potential to revolutionize AML checks by providing additional 
 By leveraging open data, financial institutions can significantly enhance their AML checks, making it more challenging for criminals to launder money and ensuring a more secure and transparent financial system.
 
 Source of articles that helped me to write this article:
-[World Bank. (2020). The Power of Open Data](https://www.worldbank.org/en/news/feature/2020/04/16/the-power-of-open-data).
-[Financial Action Task Force (FATF). (2019). International Standards on Combating Money Laundering and the Financing of Terrorism & Proliferation](https://www.fatf-gafi.org/recommendations.html).
-[United Nations Office on Drugs and Crime (UNODC). (2021). Money-Laundering and Globalization](https://www.unodc.org/unodc/en/money-laundering/globalization.html).
-[Transparency International. (2020). Corruption Perceptions Index](https://www.transparency.org/en/cpi/2020/index/nzl).
-[OECD. (2021). Blockchain Technologies as a Digital Enabler for Open Data in the Public Sector](https://www.oecd.org/governance/blockchain-technologies-as-a-digital-enabler-for-open-data-in-the-public-sector.htm).
+[World Bank. (2020). The Power of Open Data](https://www.worldbank.org/en/news/feature/2020/04/16/the-power-of-open-data) | 
+[Financial Action Task Force (FATF). (2019). International Standards on Combating Money Laundering and the Financing of Terrorism & Proliferation](https://www.fatf-gafi.org/recommendations.html) | 
+[United Nations Office on Drugs and Crime (UNODC). (2021). Money-Laundering and Globalization](https://www.unodc.org/unodc/en/money-laundering/globalization.html) | 
+[Transparency International. (2020). Corruption Perceptions Index](https://www.transparency.org/en/cpi/2020/index/nzl) | 
+[OECD. (2021). Blockchain Technologies as a Digital Enabler for Open Data in the Public Sector](https://www.oecd.org/governance/blockchain-technologies-as-a-digital-enabler-for-open-data-in-the-public-sector.htm)
 
 
