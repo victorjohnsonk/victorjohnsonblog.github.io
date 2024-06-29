@@ -107,7 +107,7 @@ Several risks could impact these projections:
 
 The interest rate trends in the UK over the past few months reflect a complex interplay of domestic and international factors. While the Bank of England has maintained a restrictive monetary policy to combat inflation, future rate cuts are anticipated as inflationary pressures ease. These trends have significant implications for various sectors of the economy, including housing, consumer spending, and business investment. By understanding these dynamics, stakeholders can better navigate the evolving economic landscape.
 
-For more detailed and up-to-date information, you can refer to sources from the Bank of England, MoneyWeek, and XTB. Here are the links to the sources from the Bank of England, MoneyWeek, and XTB that were used for this quick analysis:
+For more detailed and up-to-date information, you can refer to sources from the Bank of England, MoneyWeek, and XTB. Here are the links:
 
 1. **Bank of England**:
    - [Bank Rate maintained at 5.25% - May 2024](https://www.bankofengland.co.uk/news/2024/may/bank-rate-maintained-at-525)
