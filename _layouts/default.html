@@ -165,6 +165,15 @@ crossorigin="anonymous"></script>
         });
     </script>
 
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var imgElement = document.querySelector('img.counterimg');
+            if (imgElement) {
+                imgElement.alt = 'Visitor Counter';
+            }
+        });
+    </script>
+
 </body>
 
 </html>
