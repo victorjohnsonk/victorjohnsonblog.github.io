@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Quick Analysis of Interest Rate Trends in the UK Economy "
+title:  "Quick Analysis of Interest Rate Trends in the UK Economy"
+description : "Explore the latest interest rate trends in the UK economy. Learn about factors influencing rate decisions, impacts on housing, consumer spending, and business investment, and future projections. Get a quick and insightful analysis of the Bank of England's monetary policy and economic outlook."
 permalink : /quick-analysis-of-interest-rate-trends-in-the-uk-economy
 author: admin
 categories: [ analytics, data-analysis ]
