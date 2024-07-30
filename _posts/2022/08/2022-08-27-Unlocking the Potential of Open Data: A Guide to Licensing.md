@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Unlocking the Potential of Open Data: A Guide to Licensing"
+description : "Explore the importance of licensing in open data sharing. This guide covers various open data licenses, such as CC0, CC BY, and ODbL, and explains how they foster innovation, protect intellectual property, and promote collaboration. Learn how to choose the right license for your data and understand legal considerations in the open data ecosystem."
 permalink : /unlocking-the-potential-of-open-data-a-guide-to-licensing
 author: admin
 categories: [ open-data ]
@@ -127,3 +128,9 @@ In the realm of open data sharing, licenses play a crucial role in promoting tra
 Whether opting for a permissive license like CC0 to maximize accessibility or a more restrictive license like CC BY-ND to preserve data integrity, the choice of license should align with the goals and values of the data sharing initiative. Moreover, understanding the implications of different licenses is essential for both data creators and users to navigate the complexities of open data sharing responsibly and ethically.
 
 As open data continues to evolve and expand, the role of licenses will remain pivotal in shaping the future of data-driven innovation and collaboration. By embracing open data principles and adopting appropriate licensing strategies, individuals, organizations, and societies can unlock the full potential of data as a valuable resource for positive change and progress.
+
+{% include random-related-article.html %}
+
+### Useful Resources
+[ONS Official Website](https://www.ons.gov.uk/) | 
+[ONS UK Census Data](https://www.ons.gov.uk/census) | [More about how ONS makes use of public data](https://www.ons.gov.uk/aboutus/usingpublicdatatoproducestatistics)
