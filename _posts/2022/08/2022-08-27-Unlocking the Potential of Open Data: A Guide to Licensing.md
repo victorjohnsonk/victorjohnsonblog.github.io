@@ -41,6 +41,13 @@ Over time, certain open data licenses have emerged as community standards, gaini
 ## Common Types of Open Data Licenses
 Several types of licenses are used in open data sharing, each with its own characteristics, permissions, and requirements. While some licenses are more permissive, allowing for extensive use and redistribution of data, others impose certain restrictions to protect the interests of data creators. Here are some of the most commonly used open data licenses:
 
+- Public Domain Dedication (CC0)
+- Attribution (CC BY)
+- ShareAlike (CC BY-SA)
+- NonCommercial (CC BY-NC)
+- NoDerivatives (CC BY-ND)
+- Open Database License (ODbL)
+
 #### Public Domain Dedication (CC0)
 
 CC0 is the most permissive type of open data license, effectively placing the data into the public domain and waiving all copyright and related rights.
