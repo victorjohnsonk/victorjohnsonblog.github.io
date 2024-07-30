@@ -15,6 +15,15 @@ In the past decade, Netflix has emerged as the leader in the streaming industry,
 ![Netflix](assets/images/posts/2022/08/netflix.jpg "Representative image of Netflix.com homepage")
 ###### *Representative image of Netflix.com homepage - Source: Netflix.com*
 
+Netflix uses AI for the following:
+
+- Personalized Recommendations
+- Content Curation
+- Optimizing Streaming Quality
+- Production Decisions
+- Improving User Experience
+
+
 ## Personalized Recommendations
 
 One of the most significant ways that Netflix uses AI is through personalized recommendations. By analyzing user data, including viewing history and preferences, Netflix can recommend content that a user is most likely to enjoy. This level of personalization has proven to be incredibly successful, with up to 80% of content watched on Netflix coming from recommendations. The platform's recommendation algorithm has also been credited with keeping users engaged for longer periods, which ultimately leads to increased revenue for the company.
