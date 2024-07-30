@@ -36,6 +36,11 @@ In addition to its applications in business, data visualization is also instrume
 ## Types of Data Visualization
 Data visualization encompasses a diverse array of techniques and tools, each tailored to different types of data and analytical objectives. Some common types of data visualization include:
 
+- Charts and Graphs
+- Maps
+- Infographics
+- Dashboards
+
 #### Charts and Graphs
 Line charts, bar graphs, pie charts, and scatter plots are among the most widely used types of data visualization for representing numerical data and comparing variables. Line charts are ideal for visualizing trends over time, while bar graphs are effective for comparing discrete categories. Pie charts are useful for illustrating proportions, and scatter plots are valuable for exploring relationships between variables.
 
