@@ -9,7 +9,7 @@ image: assets/images/posts/2024/06/interest-rate-uk-1.webp
 title-image: Bank of England - Representative Image
 title-image-source: iStock.com (via Google Images)
 tags: [ analytics, dataset, graph]
-last_modified_at: 2024-06-29 00:00:00 +0100
+last_modified_at: 2024-07-31 00:00:00 +0100
 ---
 
 
