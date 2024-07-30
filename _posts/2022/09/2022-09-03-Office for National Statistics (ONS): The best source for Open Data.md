@@ -38,6 +38,13 @@ ONS data serves as a valuable resource for academic researchers across disciplin
 
 
 ## What ONS Can Do
+
+ONS primarily focus on the following activities:
+- Data Collection
+- Data Analysis
+- Data Dissemination
+
+
 #### Data Collection
 ONS employs various methods to collect data, including surveys, administrative records, and data linkage. The Annual Population Survey, Labour Force Survey, and Census are among the largest and most comprehensive surveys conducted by ONS. In addition, ONS collaborates with government agencies, businesses, and other organizations to access administrative data for statistical purposes.
 
