@@ -9,7 +9,7 @@ image: assets/images/posts/2024/06/aml-2.webp
 title-image: Anti Money Laundering Cartoon
 title-image-source: IconScout.com - Via Google Images
 tags: [ open-data ]
-last_modified_at: 2024-06-30 00:00:00 +0100
+last_modified_at: 2024-07-31 00:00:00 +0100
 ---
 
 Money laundering, the process of disguising the origins of illegally obtained money, poses a significant threat to the global financial system. Effective Anti-Money Laundering (AML) measures are crucial to combat this issue. One of the emerging tools that can significantly enhance AML checks is open data. Open data, which refers to data that is freely available for anyone to use, modify, and distribute, can play a transformative role in improving AML practices. This article explores how open data can be utilized to bolster AML checks, ensuring more robust and efficient financial crime detection and prevention.
