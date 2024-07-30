@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Office for National Statistics (ONS): The best source for Open Data"
+description : "Discover why the Office for National Statistics (ONS) is the best source for open data in the UK. Explore its role in providing accurate, reliable statistics for decision-making, policy development, and academic research. Learn about key datasets like the UK Census, Labour Force Survey, and more."
 permalink : /office-for-national-statistics-the-best-source-for-open-data
 author: admin
 categories: [ open-data ]
