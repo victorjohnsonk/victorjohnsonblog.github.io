@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "10 Open Data Sources to Fuel Your Data-Driven Insights"
+description : "Discover 10 top open data sources that fuel data-driven insights and innovation. Explore platforms like Data.gov, Google Trends, OpenStreetMap, and more to access a wealth of information for research, business, and policymaking. Learn how these open data sources provide high-quality data across various sectors, helping you make informed decisions and drive success."
 permalink : /10-open-data-sources-to-fuel-your-data-driven-insights
 author: admin
 categories: [ analytics ]
 image: assets/images/9.jpg
 tags: [open-data, dataset]
-last_modified_at: 2024-06-19 00:00:00 +0100
+last_modified_at: 2024-07-31 00:00:00 +0100
 ---
 
 In the era of big data, the availability of open data sources has revolutionized the way researchers, businesses, and policymakers approach data-driven decision-making. Open data is the practice of making data available to the public without any restrictions or limitations on its use, distribution, or reuse. Open data sources can include a wide range of information, from government statistics to private sector data sets, and can be used for a variety of purposes, including research, planning, and innovation.
