@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "FastAPI - the best tool to make API in python"
-description: "Explore FastAPI, a modern framework ideal for building high-performance APIs in Python with async support and automatic documentation."
+description: "Discover why FastAPI is the best tool for building high-performance APIs in Python. Learn about its key features, including async support, type annotations, automatic documentation, and data validation with Pydantic. Perfect for developers looking to create scalable and efficient APIs, FastAPI offers simplicity and speed, making it a top choice in the Python community."
 permalink : /fastapi-the-best-tool-to-make-api-in-python
 author: admin
 categories: [ programming ]
 image: assets/images/posts/2022/06/api-1.webp
 tags: [python, api, fastapi, featured]
-last_modified_at: 2024-06-01 00:00:00 +0100
+last_modified_at: 2024-07-31 00:00:00 +0100
 ---
 
 
@@ -143,7 +143,7 @@ In the above code, we have defined a new endpoint /items/{item_id} that accepts 
 
 {% include random-related-article.html %}
 
-## Conclusion
+
 FastAPI is a powerful and easy-to-use web framework that makes building APIs in Python a breeze. Its simplicity, speed, and performance make it an excellent choice for developers looking to create high-performance web applications. The framework's ability to automatically generate documentation and validate input and output data using Pydantic models is a big plus. The framework's async capabilities make it ideal for handling multiple requests simultaneously, leading to fast response times and minimal downtime.
 
 In this article, we covered some of the main features and benefits of using FastAPI. We explored how to define API endpoints, handle request parameters and bodies, manage responses and errors, and use Pydantic models for data validation. We also discussed how FastAPI integrates with other technologies such as OpenAPI, Docker, and SQLAlchemy.
