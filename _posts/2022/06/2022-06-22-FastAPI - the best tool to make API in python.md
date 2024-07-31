@@ -13,7 +13,7 @@ last_modified_at: 2024-07-31 00:00:00 +0100
 
 FastAPI is an open-source, modern, fast (hence the name FastAPI), and efficient framework for building APIs in Python. It was introduced in 2019 and since then, it has gained a lot of attention from the developer community. FastAPI is built on top of Starlette, a lightweight and efficient ASGI framework, and Pydantic, a data validation and settings management library.
 
-FastAPI is designed to provide high performance, with async support and type annotations. It is a great choice for developers who want to build scalable and reliable APIs in Python. In this article, we will dive deeper into the FastAPI framework, its features, and how to use it to build APIs.
+FastAPI is designed to provide high performance, with async support and type annotations. It is a great choice for developers who want to build scalable and reliable APIs in Python. In this article, we will dive deeper into the FastAPI framework, its features, and how to use it to build APIs. [Read more about FastAPI](https://fastapi.tiangolo.com/about/)
 
 ## Why FastAPI?
 
